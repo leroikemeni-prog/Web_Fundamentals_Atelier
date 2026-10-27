@@ -43,7 +43,9 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse : 
+   > _Ma réponse : Ce que le serveur envoie : Du code textuel brut composé de texte et de balises HTML (que l'on peut voir en faisant un clic droit puis « Afficher le code source de la page »).
+
+Ce que le navigateur affiche : Une page web graphique et mise en forme, obtenue après que le navigateur a interprété ces balises pour structurer les éléments visuellement.
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
@@ -58,9 +60,7 @@
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ Ce que le serveur envoie : Du code textuel brut composé de texte et de balises HTML (que l'on peut voir en faisant un clic droit puis « Afficher le code source de la page »).
-
-Ce que le navigateur affiche : Une page web graphique et mise en forme, obtenue après que le navigateur a interprété ces balises pour structurer les éléments visuellement.
+   > _Ma réponse :_ Parce que la balise <img> utilise un lien URL absolu (via l'attribut src) qui pointe vers un serveur externe sur Internet. Le navigateur va donc chercher, télécharger et afficher l'image directement depuis cette adresse distante.
 
 ---
 
@@ -68,11 +68,11 @@ Ce que le navigateur affiche : Une page web graphique et mise en forme, obtenue 
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Cela permet une division claire des rôles c'est a dire le devellopeur faire sa partie et le graphiste faire sa partie pour que si il ya un modification a faire sa ne boulverse pas tout le code.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ Parce que la balise <img> utilise un lien URL absolu (via l'attribut src) qui pointe vers un serveur externe sur Internet. Le navigateur va donc chercher, télécharger et afficher l'image directement depuis cette adresse distante.
+   > _Ma réponse :_ Ils sont remplacer par le serveur evidement je l'ai verifier en faissent un clic droit sur la page et puis afficher le code source ou alors ctrl U
 
 ---
 
