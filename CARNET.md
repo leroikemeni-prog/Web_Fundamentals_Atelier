@@ -134,15 +134,15 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Avec la méthode GET, les données du formulaire s'affichent directement en clair dans l'URL (dans la barre d'adresse sous forme de paramètres. Avec la méthode POST, les données sont transportées discrètement dans le corps de la requête HTTP et n'apparaissent pas dans l'URL.
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Pour un formulaire de recherche, on choisit GET, car cela permet de copier, partager ou mettre l'URL en favori avec les résultats de recherche. Pour un formulaire de connexion avec mot de passe, on choisit POST, car il ne faut jamais exposer un mot de passe dans l'URL (ce qui le laisserait visible dans l'historique du navigateur).
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Je ne pense pas qu'ils sont secret donc je dirai non
 
 ---
 
