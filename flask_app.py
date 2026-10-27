@@ -23,6 +23,9 @@ def api_heure():
         "message": "Bonjour depuis mon API !",
     })
 
+@app.get("/horloge")
+def horloge():
+    return render_template("horloge.html")
 
 
 # Une "route" associe une adresse (URL) à une fonction Python.
