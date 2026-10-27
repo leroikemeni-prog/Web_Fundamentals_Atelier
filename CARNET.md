@@ -118,7 +118,7 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le nom du paramètre est search_query et la valeur est chat
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
@@ -126,7 +126,7 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ C'est dangereux car un utilisateur malveillant peut injecter du code arbitraire Cela pourrait modifier l'apparence de la page, voler des données sensibles ou exécuter des scripts à l'insu des visiteurs.
 
 ---
 
