@@ -27,15 +27,15 @@
 
 1. Dans l'URL `https://www.google.com/maps`, quel est le nom de domaine ? Quel est le chemin ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ www.google.com et le chemin c'est maps
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ c'est le serveur qui l'envoie ca veut dire la page est introuvable 
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Je constate que le site ne s'ouvre pas ca peut etre due ont faites que ont a definir 2 fonction avec un meme nom et du coup ca cause un troble dans la base de donne il sait pas qoui envoyer comme information du coup il envoie un erreur 404 ce qui veut dire il na pas ete trouver
 
 ---
 
