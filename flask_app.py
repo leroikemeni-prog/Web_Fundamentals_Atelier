@@ -29,6 +29,12 @@ def Loisir():
     return "Football,voiture,handball,jeu video"
 
 
+
+@app.get("/marque")
+def Loisir():
+    return "TOYOTA,BMW,YARIS"
+
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
