@@ -166,19 +166,19 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Votre adresse IP ,Votre navigateur et système d'exploitation,L'heure précise de votre visite.
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Il permet au site de connaître la langue principale de votre navigateur afin de vous afficher directement le contenu dans cette langue (par exemple, un article en français) sans que vous ayez à la paramétrer manuellement.
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ la page demandée était /nimportequoi.
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ le mode de « navigation anonyme » porte un peu un faux nom : il empêche uniquement votre ordinateur de garder des traces locales (historique, cookies, cache) pour les autres utilisateurs de la même machine.
 
 ---
 
