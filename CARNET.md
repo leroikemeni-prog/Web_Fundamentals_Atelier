@@ -98,19 +98,19 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTTP signifie HyperText Transfer Protocol (Protocole de transfert hypertextuel).La requête est envoyée par le navigateur (le client), et la réponse est renvoyée par le serveur.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Elle déclenche généralement au moins 2 requêtes : une pour charger la page principale (presentation) et une seconde automatique du navigateur pour chercher l'icône du site (favicon.ico).
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le code 200 signifie que la requête a réussi avec succès.Le code 404 signifie que la ressource demandée est introuvable sur le serveur.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que ces modifications sont faites uniquement en local dans la mémoire de notre propre navigateur. Le fichier stocké sur le serveur reste inchangé, donc les autres visiteurs continuent de recevoir la version originale.
 
 ---
 
