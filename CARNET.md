@@ -150,15 +150,15 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Erreur 4xx C'est de la faute du client cest a dire le visiteur demande une page qui n'existe pas ou n'a pas les droits.   Erreur 5xx C'est de la faute du serveur c'est a dire  il y a un bug dans le code qui l'empêche de répondre.  
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Lorsqu'une redirection est déclenchée, le serveur répond avec un code spécifique comme 401 et indique la nouvelle adresse dans l'en-tête de réponse Location.C'est ensuite le navigateur qui lit cet en-tête et effectue automatiquement une deuxième requête vers la nouvelle URL.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Un site e-commerce redirige automatiquement un utilisateur non connecté vers la page de connexion lorsqu'il essaie d'accéder à son panier ou à son profil, puis le renvoie vers sa page initiale après authentification.
 
 ---
 
