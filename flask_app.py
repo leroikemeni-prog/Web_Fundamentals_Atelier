@@ -24,7 +24,9 @@ def presentation():
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
-
+@app.get("/Loisir")
+def Loisir():
+    return "Football,voiture,handball,jeu video"
 
 
 # ---------------------------------------------------------------
