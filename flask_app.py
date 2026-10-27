@@ -12,16 +12,7 @@ from flask import Flask, render_template, request, redirect, abort, jsonify
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-@app.get("/api/heure")
-def api_heure():
-    maintenant = datetime.now(ZoneInfo("Europe/Paris"))
-    return jsonify({
-        "heure": maintenant.strftime("%H:%M:%S"),
-        "date": maintenant.strftime("%d/%m/%Y"),
-        "message": "Bonjour depuis mon API !",
-    })
-    
-app = Flask(__name__)
+
 
 
 # Une "route" associe une adresse (URL) à une fonction Python.
