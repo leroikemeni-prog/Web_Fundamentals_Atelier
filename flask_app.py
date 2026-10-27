@@ -20,8 +20,7 @@ def api_heure():
         "date": maintenant.strftime("%d/%m/%Y"),
         "message": "Bonjour depuis mon API !",
     })
-
-
+    
 app = Flask(__name__)
 
 
