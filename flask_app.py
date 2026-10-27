@@ -39,6 +39,17 @@ def calcul():
     b = int(request.args.get("b", 0))
     return f"{a} + {b} = {a + b}"
 
+@app.get("/formulaire")
+def formulaire():
+    return render_template("formulaire.html")
+
+
+@app.get("/salut")
+def salut():
+    prenom = request.args.get("prenom", "inconnu")
+    ville = request.args.get("ville", "nulle part")
+    return f"Bonjour {prenom}, qui vient de {ville} !"
+
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
