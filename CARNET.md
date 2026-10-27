@@ -186,15 +186,18 @@ Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, 
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTML : C'est une page visuelle structurée avec des balises, destinée à être affichée et lue par un humain dans un navigateur web.
+                     JSON : C'est un format de données brut (sous forme de texte structuré), destiné à être lu et traité par un programme (comme du code JavaScript).
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Sur le serveur : Le code Python de Flask (qui gère les routes et l'API /api/heure pour fabriquer les données de l'heure).
+
+Dans le navigateur : Le code JavaScript (qui s'exécute en local sur notre machine, appelle l'API toutes les secondes et met à jour l'affichage de l'heure en direct).
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ une application meteo.L'application envoie la position géographique de votre téléphone au serveur distant, et le serveur lui renvoie en retour les prévisions météo actualisées (température, pluie, vent) sous forme de données.
 
 ---
 
