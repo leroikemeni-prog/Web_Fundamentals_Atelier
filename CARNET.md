@@ -43,15 +43,24 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : 
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_
+   >  <h1> : Définit un titre principal (de niveau 1).
+
+<p> : Définit un paragraphe de texte.
+
+<ul> : Définit une liste à puces non ordonnée (unordered list).
+
+<li> : Définit un élément (item) à l'intérieur d'une liste.
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ce que le serveur envoie : Du code textuel brut composé de texte et de balises HTML (que l'on peut voir en faisant un clic droit puis « Afficher le code source de la page »).
+
+Ce que le navigateur affiche : Une page web graphique et mise en forme, obtenue après que le navigateur a interprété ces balises pour structurer les éléments visuellement.
 
 ---
 
@@ -63,7 +72,7 @@
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que la balise <img> utilise un lien URL absolu (via l'attribut src) qui pointe vers un serveur externe sur Internet. Le navigateur va donc chercher, télécharger et afficher l'image directement depuis cette adresse distante.
 
 ---
 
