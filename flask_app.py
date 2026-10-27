@@ -20,6 +20,7 @@ app = Flask(__name__)
 def presentation():
     return """
     <h1>KEMENI DANIEL/h1>
+    <img src="https://fr.pinterest.com/pin/223139356535515079/" width="100">
     <p>Je suis étudiant en <strong>première année d'informatique</strong>.</p>
     <h2>Ce que j'aime</h2>
     <ul>
@@ -28,7 +29,7 @@ def presentation():
         <li>Le code (bientôt !)</li>
     </ul>
     """
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+
 
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
