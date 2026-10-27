@@ -28,7 +28,7 @@ def presentation():
         <li>Le code (bientôt !)</li>
     </ul>
     """
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
 
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
