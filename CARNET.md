@@ -80,15 +80,17 @@ Ce que le navigateur affiche : Une page web graphique et mise en forme, obtenue 
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML sert à définir la structure et le contenu de la page (les titres, les paragraphes, les images, les liens).
+
+Le CSS sert à définir la mise en forme et l'apparence visuelle (les couleurs, les polices d'écriture, les marges, l'agencement).
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Il doit télécharger au moins 2 fichiers : le fichier HTML de la page et le fichier de style CSS associé (pour appliquer la mise en page).
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Pour contourner le cache du navigateur. Pour aller plus vite puisque la commande Ctrl + F5 force le navigateur à ignorer ce cache et à télécharger la toute dernière version du fichier CSS depuis le serveur.
 
 ---
 
